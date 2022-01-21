@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Josefin+Sans&family=Lexend+Deca:wght@100;200;300&family=Livvic:wght@100&family=Montserrat:wght@300&family=Orelega+One&family=Poppins:wght@500&family=Roboto:wght@500&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
 
 
+
+.nav-item:hover,
+.nav-item:focus {
+  border: 1px solid;
+  border-radius: 5px;
+  color: white; 
+  color: #333;
+}
+
 .navbar-bg-color {
     font-weight: 600;
     background-color: #F2F2F2;
@@ -22,6 +31,27 @@
     color: #808080;
 }
 
+h1{
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .19em; 
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite; 
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+.header-image{
+    width: 1200px;
+    height: 438px;
+}
+.header-image:hover {
+    transform: rotate(-10deg);
+    transition: transform 1.5s ease-in-out;
+}
 .category-image {
     width: 150px;
 }
