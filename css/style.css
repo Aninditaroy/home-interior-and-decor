@@ -7,7 +7,6 @@
 .nav-item:focus {
   border: 1px solid;
   border-radius: 5px;
-  color: white; 
   color: #333;
 }
 
