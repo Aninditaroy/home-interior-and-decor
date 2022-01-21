@@ -4,11 +4,20 @@
 
 .navbar-bg-color {
     font-weight: 600;
-    background-color: #f6f5f5;
+    background-color: #F2F2F2;
 }
+
 .search {
     font-weight: 600;
 }
+.header-button{
+    font-weight: 700;
+}
+
+.header-container {
+    background-color: #ffffff;
+}
+
 .header-title {
     color: #808080;
 }
