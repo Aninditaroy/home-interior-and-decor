@@ -21,3 +21,12 @@
 .header-title {
     color: #808080;
 }
+
+.category-image {
+    width: 150px;
+}
+
+.card-image {
+    width: 452px;
+    height: 250px;
+}
